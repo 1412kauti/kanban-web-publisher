@@ -1,0 +1,22 @@
+{
+  "name": "kanban-web-publisher",
+  "version": "1.0.0",
+  "description": "Publish Obsidian Kanban boards and vault folders as static sites with board/list/markdown views, sidebar navigation, and interactive graph visualizer",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": ["obsidian", "publish", "kanban", "vercel"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "esbuild": "0.25.5",
+    "tslib": "2.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "obsidian": "latest"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "kanban-web-publisher",
+  "name": "Kanban Web Publisher",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Publish Obsidian Kanban boards and vault folders as static sites with board/list/markdown views, sidebar navigation, and interactive graph visualizer",
+  "author": "Kautilya",
+  "isDesktopOnly": true
+}

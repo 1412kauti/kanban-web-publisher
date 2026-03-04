@@ -37,7 +37,7 @@ An Obsidian plugin that publishes your vault folders as beautiful static website
 ### Manual Build
 
 ```bash
-git clone https://github.com/Kautilya-the-great/kanban-web-publisher.git
+git clone https://github.com/1412kauti/kanban-web-publisher.git
 cd kanban-web-publisher
 npm install
 npm run build
